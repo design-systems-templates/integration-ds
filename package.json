@@ -7,7 +7,9 @@
     "Raj Vasikarla raj_vasikarla@intuit.com"
   ],
   "resolutions": {
-    "postcss-markdown": "https://github.com/gucong3000/postcss-markdown"
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "ua-parser-js": "0.7.22"
   },
   "license": "MIT",
   "scripts": {
