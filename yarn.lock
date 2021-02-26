@@ -1121,6 +1121,13 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@7.11.2":
+  version "7.11.2"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha1-9UnBPHVMxAuHZEufqfCaapX+BzY=
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.13.7"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.13.7.tgz#d494e39d198ee9ca04f4dcb76d25d9d7a1dc961a"
@@ -3190,9 +3197,9 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@royriojas/get-exports-from-file@git+https://github.com/hipstersmoothie/get-exports-from-file.git#all":
+"@royriojas/get-exports-from-file@https://github.com/hipstersmoothie/get-exports-from-file#all":
   version "1.3.0"
-  resolved "git+https://github.com/hipstersmoothie/get-exports-from-file.git#2674835dac0cb1a9821956020d00db22ef9efae0"
+  resolved "https://github.com/hipstersmoothie/get-exports-from-file#2674835dac0cb1a9821956020d00db22ef9efae0"
   dependencies:
     "@babel/parser" "7.4.5"
     "@babel/traverse" "7.4.5"
@@ -3880,7 +3887,7 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@testing-library/dom@*":
+"@testing-library/dom@*", "@testing-library/dom@^7.28.1":
   version "7.29.6"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@testing-library/dom/-/dom-7.29.6.tgz#eb37844fb431186db7960a7ff6749ea65a19617c"
   integrity sha1-6zeET7QxGG23lgp/9nSeploZYXw=
@@ -3920,6 +3927,14 @@
     css.escape "^1.5.1"
     lodash "^4.17.15"
     redent "^3.0.0"
+
+"@testing-library/react@*":
+  version "11.2.5"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@testing-library/react/-/react-11.2.5.tgz#ae1c36a66c7790ddb6662c416c27863d87818eb9"
+  integrity sha1-rhw2pmx3kN22ZixBbCeGPYeBjrk=
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@testing-library/dom" "^7.28.1"
 
 "@testing-library/react@9.4.0":
   version "9.4.0"
@@ -4368,6 +4383,13 @@
   integrity sha1-W/Jcka0tezjyZLEideXJKmbYSbA=
   dependencies:
     "@types/jest" "*"
+
+"@types/testing-library__react@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@types/testing-library__react/-/testing-library__react-10.2.0.tgz#8234be1248ce6728b33922507cfe1224886ede8e"
+  integrity sha1-gjS+EkjOZyizOSJQfP4SJIhu3o4=
+  dependencies:
+    "@testing-library/react" "*"
 
 "@types/testing-library__react@^9.1.2":
   version "9.1.3"
@@ -8043,9 +8065,9 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-"degit@git+https://github.com/hipstersmoothie/degit.git#private-release":
+"degit@https://github.com/hipstersmoothie/degit.git#private-release":
   version "2.1.4"
-  resolved "git+https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
+  resolved "https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
   dependencies:
     chalk "2.4.2"
     githuburl "0.1.6"
@@ -8869,9 +8891,9 @@ eslint-formatter-pretty@^3.0.0:
     string-width "^4.2.0"
     supports-hyperlinks "^2.0.0"
 
-"eslint-import-resolver-lerna@git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
+"eslint-import-resolver-lerna@https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
   version "1.1.0"
-  resolved "git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
+  resolved "https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
 
 eslint-import-resolver-node@^0.3.2, eslint-import-resolver-node@^0.3.3:
   version "0.3.4"
